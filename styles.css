@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    background-image: url("assets/background.png");
+    margin: 0px;
+}
+
+#cat {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: width 0.5s, height 0.5s, border-radius 0.5s;
+}
+
+#cat:hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    transition: width 0.5s, height 0.5s, border-radius 0.5s;
+}
+
+#popup-window {
+    position: absolute;
+    z-index: 2;
+}
+
+#yes {
+    position: absolute;
+    z-index: 2;
+    width: 75px;
+    height: 22px;
+}
+
+#no {
+    position: absolute;
+    z-index: 2;
+    width: 75px;
+    height: 22px;
+}
+
+#Github {
+    z-index: 3;
+    position: fixed;
+    bottom: 10px;
+    left : 10px;
+    text-align: left;
+    width: 70px;
+    height: 22px;
+}
+
+#GithubPng {
+    z-index: 3;
+    position: fixed;
+    bottom: 13px;
+    left : 61px;
+    width: 16px;
+    height: 16px;
+}
+
+#Roblox {
+    z-index: 3;
+    position: fixed;
+    bottom: 40px;
+    left : 10px;
+    text-align: left;
+    width: 70px;
+    height: 22px;
+}
+
+#RobloxPng {
+    z-index: 3;
+    position: fixed;
+    bottom: 43px;
+    left : 61px;
+    width: 16px;
+    height: 16px;
+}
+
+#clear {
+    z-index: 3;
+    position: fixed;
+    top:  5px;
+    left : 5px;
+    text-align: left;
+    width: 70px;
+    height: 22px;
+}
+
+#explosion {
+    position: fixed;
+    width: 920px;
+    height: 920px;
+    top: 10%;
+    left: 25%;
+}
